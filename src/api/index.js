@@ -78,7 +78,7 @@ export const listAdmins = () => request("/admin/list");
 const SENSOR_API_URL = process.env.REACT_APP_SENSOR_API_URL;
 const SENSOR_API_KEY = process.env.REACT_APP_SENSOR_API_KEY;
 
-console.log(SENSOR_API_KEY, SENSOR_API_URL);
+// console.log(SENSOR_API_KEY, SENSOR_API_URL);
 
 export const fetchSensorData = async () => {
   const res = await fetch(SENSOR_API_URL, {

@@ -549,16 +549,20 @@ const CO2_LEVELS = [
 
 const CO2_CAUSES = [
   {
-    icon: "🧑‍🤝‍🧑",
-    text: "Human respiration — each person exhales ~200ml of CO₂ per minute, raising indoor levels quickly in crowded rooms.",
+    icon: "😮‍💨",
+    text: "Shortness of breath",
   },
   {
-    icon: "🚗",
-    text: "Vehicle emissions & outdoor air — traffic fumes infiltrate through windows, doors, and ventilation systems.",
+    icon: "😵",
+    text: "Dizziness",
   },
   {
-    icon: "🔥",
-    text: "Combustion appliances — gas stoves, heaters, and burners produce CO₂ directly inside the space.",
+    icon: "🧠",
+    text: "Difficulty thinking clearly",
+  },
+  {
+    icon: "👀",
+    text: "Reduced attention during experiments",
   },
 ];
 
